@@ -21,7 +21,7 @@ function TodoList() {
         currentTodo,
       })
     );
-
+    setCurrentEditedTodoID(null) // Reset currTodoID after editing
     setCurrentTodo('')
   }
 
